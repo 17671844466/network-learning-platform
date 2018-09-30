@@ -1,0 +1,22 @@
+//分页数据
+		Course queryEntity = new Course();
+		if(!"-1".equals(curCode)){
+			queryEntity.setClassify(curCode);
+		}
+		if(!"-2".equals(curSubCode)){
+			queryEntity.setSubClassify(curSubCode);
+		}
+		
+		if("pop".equals(sort)){//最热
+			page.descSortField("studyCount");
+		}else{
+			sort = "last";
+			page.descSortField("id");
+		}
+		mv.addObject("sort", sort);
+		
+		queryEntity.setOnsale(CourseEnum.ONSALE.value());
+		page = this.courseListBusiness.queryPage(queryEntity, page);
+		mv.addObject("page", page);
+		
+		

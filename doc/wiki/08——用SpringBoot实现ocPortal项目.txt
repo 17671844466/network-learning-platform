@@ -1,0 +1,17 @@
+
+# 08——用SpringBoot实现ocPortal项目 #
+
+一、用SpringBoot实现ocPortal项目
+		将ocPortal项目转换为Spring Boot实现
+		1）构建spring boot项目
+		2）freemarker的整合
+		3）配置静态文件(css,js)
+			启动预览
+		4）配置mybatis和Mapper文件
+		5）配置jdbc链接
+		6）实现首页免费课程的加载，并通过freemarker进行展示
+			启动预览
+			
+	    ocRest 项目的源码
+	    
+				

@@ -1,0 +1,30 @@
+<div class=main-category>
+	<div class="main-bg">
+		<div class="main-bg-item " style="background-image: url('./res/i/c1.jpg'); ">
+			<div class="main-title-1"></div>
+		</div>
+	</div>
+	<div class="f-nav-box">
+		<div class="bg-nav">
+			<a class="cur"></a>
+		</div>
+	</div>
+	
+	<div class="main-category-menu">
+		{{each allClassify as item}}
+		<div class="category" c-id="{{item.code}}">
+			<a><div class="group">{{item.name}}</div></a>
+		</div>
+		{{/each}}
+	</div>
+	
+	{{each allClassify as item}}
+	<div class="main-category-submenu-content"  id="{{item.code}}" >
+		{{each item.subClassify as subItem}}
+		<a class="submenu-item"  > {{subItem.name}} /</a>
+		{{/each}}
+	</div>
+	{{/each}}
+	
+</div>
+

@@ -1,0 +1,13 @@
+
+# 02—ocRest项目的创建、Node、TomodJs的安装 #
+
+一、新建一个项目 
+		1、ocRest项目创建；
+			rest 接口
+				
+		2、NodeJS 和 TmodJS 的安装
+			
+			nodejs 和 apache 服务器
+				下载链接：http://pan.baidu.com/s/1miysYTi 密码：j145
+				
+				

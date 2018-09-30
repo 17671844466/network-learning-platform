@@ -1,0 +1,34 @@
+
+# 01—整体课程概览：前后端分离、代码补充#
+
+一、目的：
+	1、教大家手动敲一些代码，做个过度
+		1）Controller、Business、Service、Dao层
+		2）测试用例
+		3）实现PC站首页（ocPortal项目的首页功能）
+		
+	2、实现前后端分离
+		1）rest接口
+		2）前端部署在Apache服务器(81)、后端部署在Tomcat服务器(8080)
+		3）跨域访问问题
+	
+	
+二、新建一个项目 ocRest (ocPortal)
+		实现前后端分离
+		
+		1、主要将ocPortal中代码带大家敲一下；
+			1）测试用例   Java
+				先用测试用例展示
+			2）应用代码展示 (JS、HTML）
+				实现ocPortal中的首页面展示
+			
+		2、前后端分离（腾讯、爱奇艺）
+			TmodJS（NodeJS）    artTemplate
+				https://www.npmjs.com/package/tmodjs
+				https://aui.github.io/art-template/docs/
+				框架比较简单，接收起来比较容易，重在学习前后端分离思路；
+				
+		3、ajax跨域访问
+			
+						
+				

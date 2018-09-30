@@ -1,0 +1,20 @@
+
+# 04—— 前端front的样式、静态页面的整合 #
+	
+	说明：
+		这节课程是补录的，所以对于ocPortal中的代码，大家可以直接从整体源码中下载
+		
+一、将ocPortal中的静态页面整合到front项目中
+		
+		1、css、js的拷贝
+			效果演示
+			
+		2、tomod 的整合（artTemplate  / vue.js）
+			1）将header部分代码 编译成 javascript 实现；
+			2）tmod打包命令
+				tmod . --output ./build
+			3）创建 init.js 实现header部分的渲染
+			
+		3、效果演示
+			
+		

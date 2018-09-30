@@ -1,0 +1,40 @@
+
+#8-02——新浪SAE部署#
+
+需求-设计-开发-发布（测试）-产出
+
+一、需求（要实现的功能点）；
+	1）新浪SAE数据库创建
+		
+	2）修改jdbc.properties
+		改为自己的数据库连接配置
+		
+	3）创建应用，上传War包
+		ocPortal :
+			 http://ocportal.applinzi.com/
+		ocOperator：
+			http://ocoperator.applinzi.com
+		ocWechat：
+			http://ocwechat.applinzi.com/
+		
+	3）M站微信公众号接入配置
+		改为自己的公众号信息
+		
+	4）效果预览
+	
+	
+二、设计（思路）；
+	项目：ocProject
+	
+三、开发（实战）；
+	代码实战讲解
+	
+四、发布（验证）；
+	预览
+	
+五、产出（结果驱动）；
+	wiki：8-02——新浪SAE部署.txt
+	源码：ocProject_V802
+	
+	
+	

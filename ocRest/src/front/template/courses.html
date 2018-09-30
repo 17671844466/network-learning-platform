@@ -1,0 +1,53 @@
+<div class="types-block clearfix">
+	<h3 class="types-title">实战推荐</h3>
+	<div class="types-content">
+		
+		{{each data.actionCourses as item index}}
+		<a href="">
+		<div class="course-card-container" {{if (index ==4 )}} style="margin-right:0px;"{{/if}}>
+			<div class="course-card-top green-bg">
+				<span>{{item.classifyName}} {{index}}</span>
+			</div>
+
+			<div class="course-card-content">
+				<h3 class="course-card-name">{{item.name}}</h3>
+				<p title="{{item.brief}}">{{item.brief}}</p>
+				<div class="course-card-bottom">
+					<div class="course-card-info">178人在学</div>
+					<div class="course-card-price">￥179.00</div>
+				</div>
+			</div>
+		</div>
+		</a>
+		{{/each}}
+	</div>
+</div>
+<!-- 实战推荐-end -->
+
+<!-- 免费好课-start -->
+<div class="types-block clearfix">
+	<h3 class="types-title">免费好课</h3>
+	<div class="types-content">
+		
+		{{each data.freeCourses as item index}}
+		<a href="">
+		<div class="course-card-container" {{if (index ==4 )}} style="margin-right:0px;"{{/if}}>
+			<div class="course-card-top green-bg">
+				<span>{{item.classifyName}}</span>
+			</div>
+
+			<div class="course-card-content">
+				<h3 class="course-card-name">{{item.name}}</h3>
+				<p title="{{item.brief}}">{{item.brief}}</p>
+				<div class="course-card-bottom">
+					<div class="course-card-info">初级<span>·</span>178人在学</div>
+				</div>
+			</div>
+		</div>
+		</a>
+		{{/each}}
+	
+	</div>
+	
+</div>
+<!-- 免费好课-end -->

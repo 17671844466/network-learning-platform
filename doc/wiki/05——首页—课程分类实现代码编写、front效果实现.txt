@@ -1,0 +1,23 @@
+
+# 05——首页—课程分类实现代码编写、front效果实现 #
+
+我们只简单讲解 首页部分数据的渲染，
+	1）课程分类渲染：一级分类、二级分类；
+	2）实战推荐、免费好课、名校讲师	
+
+一、课程分类渲染：一级分类、二级分类   rest接口实现、front渲染
+		1、提供课程分类数据 rest 接口
+			代码编写：
+				1）Controller、Service、Dao
+				2）测试用例编写
+				
+		2、前端渲染rest接口数据
+			1，ajax请求rest接口
+				涉及到跨域访问，使用jsonp解决
+			2，tmod语法占位
+			3，tmod实现前端页面的渲染
+		
+		3、artTemplate语法 (tomd)
+			https://aui.github.io/art-template/docs/
+			
+			
